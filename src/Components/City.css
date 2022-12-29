@@ -17,7 +17,7 @@ h2 {
 .searchbox {
   display: flex;
   flex-direction: row;
-  border: 1px solid black;
+  border: 3px solid black;
   font-size: 19px;
   border-radius: 3px;
   margin: 20px auto;
@@ -27,15 +27,18 @@ h2 {
   font-size: 16px;
   padding: 12px;
   font-weight: bold;
+  outline: none;
+  border: none;
 }
 
 .searchbox button {
   font-size: 20px;
   padding: 9px;
   /* font-weight: bold; */
-  color: rgba(255, 255, 255, 0.858);
+  color: rgba(255, 255, 255, 0.645);
   cursor: pointer;
-  background-color: cornflowerblue;
+  background-color: rgba(138, 169, 225, 0.988);
+  border: none;
 }
 .searchbox button:hover {
   background-color: rgb(56, 115, 225);
